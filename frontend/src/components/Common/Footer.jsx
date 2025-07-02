@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 text-gray-700 py-12 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
+   <footer className="bg-gray-100 text-gray-700 py-12 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Company Info */}
+        {/* company */}
         <div className="space-y-4">
           <h3 className="text-lg font-bold text-gray-900">Company Info</h3>
           <ul className="space-y-2">
@@ -16,7 +16,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* See More */}
+        {/* see more */}
         <div className="space-y-4">
           <h3 className="text-lg font-bold text-gray-900">See More</h3>
           <ul className="space-y-2">
@@ -26,14 +26,14 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Support Info */}
+        {/* supp. */}
         <div className="space-y-4">
           <h3 className="text-lg font-bold text-gray-900">Support Info</h3>
           <ul className="space-y-2">
             <li>Book Online for Best experience</li>
             <li>
               <a href="mailto:info@Adventurehub.com" className="hover:text-orange-500 transition-colors">
-                info@Adventurehub.com
+                info@tripShaala.com
               </a>
             </li>
             <li>Office</li>
@@ -49,16 +49,16 @@ export default function Footer() {
             </li>
             <li>
               <a href="mailto:Adventurehub@gmail.com" className="hover:text-orange-500 transition-colors">
-                Email - Adventurehub@gmail.com
+                Email - tripShaala@gmail.com
               </a>
             </li>
           </ul>
         </div>
       </div>
 
-      {/* Copyright */}
+      {/* copyright */}
       <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-gray-200 text-center text-sm">
-        <p>© {new Date().getFullYear()} AdventureHub. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} tripShaala. All rights reserved.</p>
       </div>
     </footer>
   );
