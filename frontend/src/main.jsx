@@ -10,7 +10,7 @@ function AppRouter() {
     <Router>
       <Routes>
         <Route path="/" element={<App />}>
-          {/* <Route index element={<UserDashboard />} /> */}
+          <Route index element={<UserDashboard />} />
           <Route path="rafting" element={<Rafting />} />
           <Route path="camping" element={<Camping />} />
           <Route path="adventure-activities" element={<AdventureActivities />} />

@@ -4,7 +4,7 @@ export const theme = {
     primaryHover: 'hover:text-blue-500',
     active: 'font-bold text-blue-600',
     inactive: 'text-gray-700',
-    logo: 'text-3xl font-bold',
+    logo: '',
     navBorder: 'border-gray-300',
   },
   dimensions: {

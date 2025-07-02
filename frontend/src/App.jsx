@@ -1,4 +1,4 @@
-import { Navbar } from "./components/index.components.js"
+import { Navbar, Footer } from "./components/index.components.js"
 import { Outlet } from 'react-router-dom';
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <main className="container mx-auto px-4 py-8">
         <Outlet />
       </main>
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,11 @@
 import Navbar from "./Common/Navbar.jsx"
+import Footer from "./Common/Footer.jsx"
+import ActivityCards from "./User/ActivityCards.jsx"
+import HeroSection from "./User/HeroSection.jsx"
 
 export {
-    Navbar
+    Navbar,
+    Footer,
+    ActivityCards,
+    HeroSection,
 }
