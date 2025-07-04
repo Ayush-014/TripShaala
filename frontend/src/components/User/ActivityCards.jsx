@@ -78,7 +78,7 @@ export default function RaftingSection() {
       price: 999,
       originalPrice: 1599,
       images: [
-        "https://images.unsplash.com/photo-1509587584298-0f3b3a3a1797?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
         "https://images.unsplash.com/photo-1509587584298-0f3b3a3a1797?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
         "https://images.unsplash.com/photo-1509587584298-0f3b3a3a1797?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60"
       ]
@@ -86,17 +86,89 @@ export default function RaftingSection() {
   ];
 
   const serviceData = [{
-  title: "Bungee Jumping in Rishikesh",
-  provider: "Jumpin Heights",
-  duration: "15 Min",
-  price: 3499,
-  originalPrice: 4599,
-  images: [
-    "https://images.unsplash.com/photo-1518632617560-e8ffe078ff19?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
-    "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
-    "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60"
-  ]
-}
+    title: "Bungee Jumping in Rishikesh",
+    provider: "Jumpin Heights",
+    duration: "10 Min",
+    price: 3499,
+    originalPrice: 4599,
+    images: [
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60"
+    ]
+  },
+  {
+    title: "Bungee Jumping in Rishikesh",
+    provider: "Jumpin Heights",
+    duration: "11 Min",
+    price: 3499,
+    originalPrice: 4599,
+    images: [
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60"
+    ]
+  },
+  {
+    title: "Bungee Jumping in Rishikesh",
+    provider: "Jumpin Heights",
+    duration: "12 Min",
+    price: 3499,
+    originalPrice: 4599,
+    images: [
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60"
+    ]
+  },
+  {
+    title: "Bungee Jumping in Rishikesh",
+    provider: "Jumpin Heights",
+    duration: "13 Min",
+    price: 3499,
+    originalPrice: 4599,
+    images: [
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60"
+    ]
+  },
+  {
+    title: "Bungee Jumping in Rishikesh",
+    provider: "Jumpin Heights",
+    duration: "14 Min",
+    price: 3499,
+    originalPrice: 4599,
+    images: [
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60"
+    ]
+  },
+  {
+    title: "Bungee Jumping in Rishikesh",
+    provider: "Jumpin Heights",
+    duration: "15 Min",
+    price: 3499,
+    originalPrice: 4599,
+    images: [
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60"
+    ]
+  },
+  {
+    title: "Bungee Jumping in Rishikesh",
+    provider: "Jumpin Heights",
+    duration: "16 Min",
+    price: 3499,
+    originalPrice: 4599,
+    images: [
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-4.1.0&auto=format&fit=crop&w=500&q=60"
+    ]
+  }
   ];
 
 
