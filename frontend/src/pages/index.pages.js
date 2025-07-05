@@ -6,7 +6,7 @@ import VehicleRent from "./User/VehicleRent.jsx"
 import AdminDashboard from "./Admin/AdminDashboard.jsx"
 import Login from "./Public/Login.jsx"
 import Signup from "./Public/Signup.jsx"
-
+import DetailView from "./User/DetailView.jsx"
 export {
     UserDashboard,
     AdventureActivities,
@@ -15,5 +15,6 @@ export {
     VehicleRent,
     AdminDashboard,
     Login,
-    Signup
+    Signup,
+    DetailView
 }

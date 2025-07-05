@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import App from '../App';
-import { UserDashboard, VehicleRent, Rafting, Camping, AdventureActivities } from "../pages/index.pages.js";
+import { UserDashboard, VehicleRent, Rafting, Camping, AdventureActivities, DetailView } from "../pages/index.pages.js";
 import { PrivateRoute } from "../components/index.components.js"
 
 const UserRoutes = () => {
@@ -20,6 +20,7 @@ const UserRoutes = () => {
         <Route path="rafting" element={<Rafting />} />
         <Route path="camping" element={<Camping />} />
         <Route path="adventure-activities" element={<AdventureActivities />} />
+        <Route path="detail" element={<DetailView />} />
       </Route>
     </Routes>
   );
